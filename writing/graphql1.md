@@ -29,7 +29,7 @@ GraphQL은 API를 위한 Query Language이면서 query를 실행시기키 위한
   }
 }
 ```
-> ### GraphQL query는 Response를 미러링 한다.
+#### GraphQL query는 Response를 미러링 한다.
 
 ### API
 ```
@@ -50,4 +50,4 @@ type Person {
 }
 ```
 
-### 따라서 client에서는 Response에 대한 예측이 가능하다. 그리고 해당 예시를 보면 client에서 query를 작성할 때 Person type에 대해서 원하는 필드를 정의할 수 있어 over fetching이나 under fetching문제를 해결할 수 있다.
+#### 따라서 client에서는 Response에 대한 예측이 가능하다. 그리고 해당 예시를 보면 client에서 query를 작성할 때 Person type에 대해서 원하는 필드를 정의할 수 있어 over fetching이나 under fetching문제를 해결할 수 있다.
